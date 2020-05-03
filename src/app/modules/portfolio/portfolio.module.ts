@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { PortfolioComponent } from './views/portfolio-component/portfolio.component';
 import { PortfolioRoutingModule } from './routing/portfolio.routing';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { PortfolioRoutingModule } from './routing/portfolio.routing';
   imports: [
     CommonModule,
     RouterModule,
-    PortfolioRoutingModule
+    PortfolioRoutingModule,
+    CarouselModule
   ],
   exports: [
 
