@@ -74,13 +74,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: transform .5s ease;
 }
+
+
 
 .carousel-image {
   height: 270px;
   max-width: 450px;
+  border-radius: 3px;
 }
 
+.project:hover {
+  transform: scale(1.02);
+}
 
 .connect-area {
   margin-bottom: 10%;
