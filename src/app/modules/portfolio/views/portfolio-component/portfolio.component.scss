@@ -56,14 +56,36 @@
 
 .row-one {
   display: flex;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 }
 .row-two {
   display: flex;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 }
 
 .project {
   padding: 20px;
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.connect-area {
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-content {
   display: flex;
   flex-direction: column;
   align-items: center;
